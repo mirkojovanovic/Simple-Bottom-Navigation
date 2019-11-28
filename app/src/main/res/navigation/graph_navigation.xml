@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph_navigation"
+    app:startDestination="@+id/navigation_tab_one">
+
+    <fragment
+        android:id="@+id/navigation_tab_one"
+        android:name="com.example.android.mj_bottomnavigationview.ui.tab_1.TabOneFragment"
+        android:label="@string/title_tab_one"
+        tools:layout="@layout/fragment_tab" />
+
+    <fragment
+        android:id="@+id/navigation_tab_two"
+        android:name="com.example.android.mj_bottomnavigationview.ui.tab_2.TabTwoFragment"
+        android:label="@string/title_tab_two"
+        tools:layout="@layout/fragment_tab" />
+
+    <fragment
+        android:id="@+id/navigation_tab_three"
+        android:name="com.example.android.mj_bottomnavigationview.ui.tab_3.TabThreeFragment"
+        android:label="@string/title_tab_three"
+        tools:layout="@layout/fragment_tab" />
+
+    <fragment
+        android:id="@+id/navigation_tab_four"
+        android:name="com.example.android.mj_bottomnavigationview.ui.tab_4.TabFourFragment"
+        android:label="@string/title_tab_four"
+        tools:layout="@layout/fragment_tab" />
+
+    <fragment
+        android:id="@+id/navigation_tab_five"
+        android:name="com.example.android.mj_bottomnavigationview.ui.tab_5.TabFiveFragment"
+        android:label="@string/title_tab_five"
+        tools:layout="@layout/fragment_tab" />
+
+</navigation>

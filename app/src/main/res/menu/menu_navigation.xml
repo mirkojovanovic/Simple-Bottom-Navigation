@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_tab_one"
+        android:icon="@android:drawable/ic_menu_zoom"
+        android:title="@string/title_tab_one" />
+
+    <item
+        android:id="@+id/navigation_tab_two"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="@string/title_tab_two" />
+
+    <item
+        android:id="@+id/navigation_tab_three"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="@string/title_tab_three" />
+
+    <item
+        android:id="@+id/navigation_tab_four"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        android:title="@string/title_tab_four" />
+
+    <item
+        android:id="@+id/navigation_tab_five"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="@string/title_tab_five" />
+</menu>

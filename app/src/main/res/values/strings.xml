@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">MJ_BottomNavigationView</string>
+    <string name="title_tab_one">Fragment 1</string>
+    <string name="title_tab_two">Fragment 2</string>
+    <string name="title_tab_three">Fragment 3</string>
+    <string name="title_tab_four">Fragment 4</string>
+    <string name="title_tab_five">Fragment  5</string>
 </resources>

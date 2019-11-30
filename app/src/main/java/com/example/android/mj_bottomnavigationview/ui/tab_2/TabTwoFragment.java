@@ -35,12 +35,7 @@ public class TabTwoFragment extends Fragment {
 
         ButterKnife.bind(this, root);
 
-        tabTwoViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(String s) {
-                textView.setText(s);
-            }
-        });
+        tabTwoViewModel.getText().observe(this, s -> textView.setText(s));
 
         return root;
     }

@@ -35,12 +35,7 @@ public class TabFiveFragment extends Fragment {
 
         ButterKnife.bind(this, root);
 
-        tabFiveViewModel.getText().observe(this, new Observer<String>() {
-            @Override
-            public void onChanged(String s) {
-                textView.setText(s);
-            }
-        });
+        tabFiveViewModel.getText().observe(this, s -> textView.setText(s));
 
         return root;
     }
